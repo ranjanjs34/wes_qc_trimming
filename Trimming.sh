@@ -1,1 +1,1 @@
-java -jar trimmomatic-0.39.jar PE gc148-B_Raw_Reads_R1.fastq.gz gc148-B_Raw_Reads_R2.fastq.gz gc148-B__trimmed_R1.fastq.gz gc148-B__trimmed_R1_Unpaired.fastq.gz gc148-B__trimmed_R2.fastq.gz gc148-B__trimmed_R1_Unpaired.fastq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:35
+java -jar trimmomatic-0.39.jar PE gc148-B_Raw_Reads_R1.fastq.gz gc148-B_Raw_Reads_R2.fastq.gz gc148-B__trimmed_R1.fastq.gz gc148-B__trimmed_R1_Unpaired.fastq.gz gc148-B__trimmed_R2.fastq.gz gc148-B__trimmed_R1_Unpaired.fastq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:True MINLEN:35
